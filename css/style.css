@@ -161,10 +161,6 @@ body {
     display: flex;
     align-items: center;
 }
-.navbarlink a {
-    color: #f36c21;
-    text-decoration: none;
-}
 .navbarlink:hover {
     border-bottom: 3px solid #f36c21;
 }
@@ -172,6 +168,8 @@ body {
     border-bottom: 3px solid #f36c21;
 }
 .navbarlink a {
+    color: #f36c21;
+    text-decoration: none;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
