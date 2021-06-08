@@ -121,17 +121,14 @@ body {
     justify-content: center;
     align-items: center;
 }
-.navbar h3, a  {
-    color: #f36c21;
-    padding: 10px;
-    text-decoration: none;
-}
 .navbarlogo {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
+    color: #f36c21;
+    padding: 10px;
     height: 40px;
     font-size: 22px;
     display: -webkit-flex;
@@ -155,12 +152,18 @@ body {
     font-size: 22px;
     list-style: none;
     height: 100%;
+    padding: 10px;
+    text-decoration: none;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
     display: flex;
     align-items: center;
+}
+.navbarlink a {
+    color: #f36c21;
+    text-decoration: none;
 }
 .navbarlink:hover {
     border-bottom: 3px solid #f36c21;
