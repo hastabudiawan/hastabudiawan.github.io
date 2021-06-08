@@ -16,36 +16,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-.btn {
-    background-color: #f36c21;
-    color: #ffffff;
-    padding: 5px;
-    border-radius: 5px;
-}
-.paddding-top-10 {
-    padding-top: 10px;
-}
-
-/* txt */
-.txt-header {
-    font-size: 22px;
-    font-weight: 500;    
-}
-.txt-subheader {
-    font-size: 18px;
-    font-weight: 500;
-}
-.txt-content {
-    font-size: 14px;
-    font-weight: 500;
-}
-.txt-orange {
-    color: #f36c21;
-}
-.txt-center {
-    text-align: center;
-}
-.txt-decoration-none {
+.link {
     text-decoration: none;
 }
 
@@ -183,7 +154,6 @@ body {
     font-size: 22px;
     list-style: none;
     height: 100%;
-    font-weight: 500;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -221,6 +191,7 @@ body {
 }
 .code {
     padding-top: 150px;
+    text-align: center;
     color: #ffffff;
     font-size: 22px;
 }
@@ -238,12 +209,16 @@ body {
 }
 
 /* Portfolio */
-.portfolio {
-    padding: 0px 0px 50px 0px;
-}
-.title-section {
+.portfolio h1 {
+    font-size: 22px;
     text-align: center;
     padding: 20px;
+}
+.portfolio p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 500;
 }
 .browser {
     width: auto;
@@ -287,52 +262,34 @@ body {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.mark {
-    padding: 20px;
-    justify-content: center;
-    display: flex;
-}
-.mark i {
-    border-radius: 50%;
-    margin: 0 3px;
-    width: 20px;
-}
-.mark i:nth-child(1) {
-    background-color: #ED6B5F;
-    height: 20px;
-}
-.mark i:nth-child(2) {
-    background-color: #F5C250;
-    height: 20px;
-}
-.mark i:nth-child(3) {
-    background-color: #63C755;
-    height: 20px;
-}
-.linkgithub {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    color: #000000;
-}
-.center {
-    text-align: center;
-}
 
 /* Contact */
 .contact {
-    height: 600px;
+    height: 900px;
+}
+.contact h1 {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+}
+.contact p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 500;
 }
 .card {
+    text-align: center;
     border-radius: 5px;;
     background-color: #ffffff;
     padding: 45px 0px 45px 0px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
 }
 .card a {
+    text-decoration: none;
     color: #000000;
 }
-.fontawesome {
+.card .fa {
     font-size: 48px;
     color: #f36c21;
 }
