@@ -120,7 +120,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.navbar a {
+.navbar h3, a  {
     color: #f36c21;
     padding: 10px;
     text-decoration: none;
