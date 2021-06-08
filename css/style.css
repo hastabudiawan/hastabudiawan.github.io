@@ -18,6 +18,7 @@ body {
 }
 .link {
     color: #000000;
+    padding: 0px;
     text-decoration: none;
 }
 
